@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+.jumbotron-fluid {
+  background-color: #ea505e;
+  color: black;
+  margin-bottom: 0px;
+  text-align: center;
+}
