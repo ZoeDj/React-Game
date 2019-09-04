@@ -37,7 +37,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="jumbotron jumbotron-fluid">
+        <div
+          className="jumbotron jumbotron-fluid"
+          style={{ background: "#ee5867", color: "#e1f5f3", marginBottom: "0" }}
+        >
           <div className="container">
             <h1 className="display-4">Clicky Game</h1>
             <h5 className="lead">
