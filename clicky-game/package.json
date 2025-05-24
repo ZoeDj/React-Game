@@ -2,7 +2,6 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zoedj.github.io/React-Game",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^6.3.0",
@@ -11,7 +10,7 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
